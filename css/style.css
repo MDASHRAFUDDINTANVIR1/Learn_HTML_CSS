@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --primary-color: #473BF0;
+    --secondary-color: #161C2D;
+    --green: #68D585;
+}
