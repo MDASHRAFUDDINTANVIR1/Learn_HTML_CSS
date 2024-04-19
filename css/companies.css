@@ -1,19 +1,16 @@
 
 
 .companies {
-    background-color: whitesmoke;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-
+    background-color: aliceblue;
 }
 
 .company-add {
     width: 80%;
     margin: 0 auto;
-    padding: 90px;
+    padding: 60px 0;
     text-align: center;
 }
+
 
 .company-add h3 {
     color: #161C2D;
@@ -51,3 +48,16 @@
 }
 
 
+/* Media Query Applied Here   */
+/* Media Query Applied Here  */
+
+@media only screen and (max-width: 600px) {
+    .company {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+
+}
