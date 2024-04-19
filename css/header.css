@@ -37,21 +37,26 @@ header {
     
 }
 
-.navbar li a:hover {
-    color: var(--primary-color);
-    transition: 0.3s;
-}
-.navbar li:last-child {
+.navbar li:last-child a{
     background-color: var(--primary-color);
     padding: 10px 15px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
-.navbar li:last-child:hover {
-    background-color: aliceblue;
-    
+.navbar li:last-child a:hover {
+    background-color: rgb(182, 215, 252);
     transition: 0.3s;
+    color: #161C2D;
 }
+
+.navbar nav ul li a:hover {
+    color: rgb(182, 215, 252);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
 
 /* Hero Section Start Here  */
 /* Hero Section Start Here  */
