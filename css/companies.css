@@ -1,0 +1,53 @@
+
+
+.companies {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+
+}
+
+.company-add {
+    width: 80%;
+    margin: 0 auto;
+    padding: 90px;
+    text-align: center;
+}
+
+.company-add h3 {
+    color: #161C2D;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: -1.2px;
+}
+
+.company-add p {
+    width: 80%;
+    margin: 20px auto;
+    color: #161C2D;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+
+.company img {
+    height: 100%;
+    width: auto;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+

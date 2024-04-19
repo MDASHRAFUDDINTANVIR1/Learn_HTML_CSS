@@ -91,7 +91,6 @@ header {
 
 .video-article h2 {
     color: whitesmoke;
-    font-family: Gilroy;
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -101,7 +100,6 @@ header {
 
 .video-article p {
     color: rgb(195, 173, 173);
-    font-family: Gilroy;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
