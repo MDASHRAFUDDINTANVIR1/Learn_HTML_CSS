@@ -128,7 +128,18 @@ header {
 
 }
 
+.search {
+    background-color: #161C2D;
+    color: aliceblue;
+    font-size: 16px;
+}
 
+.search:hover {
+    cursor: pointer;
+    background-color: rgb(144, 195, 254);
+    color: #161C2D;
+    transition: 0.4s;
+}
 
 
 /* Media Query Applied Here  */
