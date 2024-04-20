@@ -80,16 +80,54 @@
 
 }
 
-.sub-part2 {
-    border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(198, 225, 249);
+.part1 h4 {
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 152.381% */
+    letter-spacing: -0.5px;
 }
 
+.part1 p {
+    color: #f9eeee;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    letter-spacing: -0.1px;
+}
 
+.part2 h4, .part3 h4, .part4 h4, .part5 h4, .part6 h4 {
+    color: #161C2D;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 152.381% */
+    letter-spacing: -0.5px;
+}
 
+.part2 p, .part3 p, .part4 p, .part5  p, .part6 p {
+    color: #161C2D;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    letter-spacing: -0.1px;
+}
 
+.sub-part a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.solid-2 {
+    color: aliceblue;
+}
+
+.solid-2:hover {
+    color: var(--secondary-color);
+}
 
 
 
