@@ -42,6 +42,9 @@
     letter-spacing: -0.2px;
 }
 
+.category-text a {
+    text-decoration: none;
+}
 .extra1 {
     color: #68D585;
     font-size: 15px;
@@ -49,6 +52,12 @@
     font-weight: 500;
     line-height: 32px; /* 188.235% */
     letter-spacing: -0.6px;
+    cursor: pointer;
+}
+
+.extra1:hover {
+    color: var(--primary-color);
+    transition: 0.3s;
 }
 
 .solid1 {
