@@ -1,0 +1,60 @@
+.find-job {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.find-job-width{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.find-job img {
+    height: 100%;
+    width: auto;
+}
+
+.find-header-section {
+    width: 50%;
+    margin: 0 auto 80px auto;
+    text-align: center;
+}
+
+.find-header-section h2 {
+    color: #161C2D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: -1.2px;
+}
+
+.find-header-section p {
+    margin: 10px 0;
+    color: #161C2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 168.421% */
+    letter-spacing: -0.2px;
+}
+
+
+/* Media Query Applied Here  */
+/* Media Query Applied Here  */
+
+@media only screen and (max-width: 600px) {
+    .find-header-section {
+        width: 80%;
+        margin: 0 auto 60px auto;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    .find-header-section {
+        width: 80%;
+        margin: 0 auto 60px auto;
+    }
+}
