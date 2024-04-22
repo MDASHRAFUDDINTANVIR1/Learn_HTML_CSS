@@ -36,7 +36,7 @@
 
 .job-offer {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 7px;
 }
 
@@ -79,7 +79,7 @@
 
 .job-offer h3 {
     color: #161C2D;
-    font-size: 21px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px; /* 152.381% */
