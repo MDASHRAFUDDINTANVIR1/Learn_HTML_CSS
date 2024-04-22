@@ -5,12 +5,12 @@
 .contact-margin {
     width: 80%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
 .contact-form {
-    margin: 20px 0;
+    margin: 0px 0 20px 0;
 
 }
 
@@ -53,4 +53,28 @@
 .contact-form button:hover {
     background-color: #161C2D;
     transition: 0.4s;
+}
+
+
+/* Media Query Added here  */
+@media only screen and (max-width: 600px) {
+    .contact-form input, button {
+        width: 80%;
+        margin: 10px auto;
+        border-radius: 7px;
+
+    }
+    .contact-margin p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .contact-margin p {
+        width: 70%;
+        margin: 0 auto;
+    }
+
 }
