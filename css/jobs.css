@@ -32,11 +32,28 @@
     padding: 30px 0;
 }
 
+
+
 .job-offer {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px;
+    border-radius: 7px;
 }
 
+.job-offer:first-child {
+    background-color: var(--primary-color);
+}
+.job-offer:first-child h5 {
+    color: lightgreen;
+}
+.job-offer:first-child h3 {
+    color: lightcyan;
+}
+
+.job-offer:first-child p {
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+}
 
 .job-offer h5 {
     margin: 15px 0;
@@ -48,13 +65,13 @@
 }
 
 .offer1 h5 {
-    color: #68D585;
+    color: #229641;
 }
 .offer2 h5 {
     color: #473BF0;
 }
 .offer3 h5 {
-    color: #68D585;
+    color: #22a043;
 }
 .offer4 h5 {
     color: #F64B4B;
