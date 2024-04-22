@@ -85,11 +85,36 @@
     color: aliceblue;
     font-size: 16px;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
 
 }
 
 .news-part button:hover {
     background-color: #161C2D;
     transition: 0.4s;
+}
+
+
+
+/* Media Query Added here  */
+@media only screen and (max-width: 600px) {
+    .news-portion {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .news-header {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .news-portion {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .news-header {
+        width: 70%;
+    }
+
 }

@@ -117,6 +117,9 @@
     margin-right: 10px;
 }
 
+
+/* Media Query Added Here  */
+
 @media only screen and (max-width: 600px) {
     .jobs-content {
         display: grid;
