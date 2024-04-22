@@ -51,8 +51,7 @@
 }
 
 .job-offer:first-child p {
-    color: rgb(53, 53, 53);
-    font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 
 .job-offer h5 {
@@ -95,6 +94,11 @@
     margin: 10px 0;
 }
 
+.job-p {
+    padding: 20px 0;
+}
+
+
 .logo-content {
     display: flex;
     align-items: center;
@@ -107,6 +111,11 @@
     height: 100%;
 }
 
+
+.fa-location-dot {
+    color: #c32121;
+    margin-right: 10px;
+}
 
 @media only screen and (max-width: 600px) {
     .jobs-content {
